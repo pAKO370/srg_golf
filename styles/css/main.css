@@ -15,9 +15,16 @@ header {
   position: relative;
   height: 280px;
   background-color: #E7E1D3; }
+  header img {
+    position: absolute;
+    top: px;
+    left: 20px;
+    width: 25px;
+    z-index: 5; }
 
 .nav {
   position: relative;
+  margin-top: -50px;
   top: 0;
   height: 50px;
   min-height: 50px;
@@ -61,7 +68,7 @@ header {
   background-repeat: no-repeat; }
 
 .srg {
-  position: absolute;
+  position: relative;
   top: 65px;
   width: 100%;
   z-index: 40;
@@ -70,5 +77,11 @@ header {
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat; }
+  .srg img {
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 12.5px); }
 
 /*# sourceMappingURL=main.css.map */
