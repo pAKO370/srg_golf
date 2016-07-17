@@ -12,7 +12,7 @@
 			$('.hidden-nav').removeClass('show');
 			$('.hidden-nav img').css({'bottom' : 0});
 		}
-		if(wScroll > 0){
+		if(wScroll >= 0){
 			var marginTop = -30;
 			$('#clouds').css({'top':  ((wScroll) / 2)})
 			$('.about').css({'margin-top':  marginTop - ((wScroll) / 4)})
