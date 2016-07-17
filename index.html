@@ -10,13 +10,22 @@
   </head>
   <body>
   	<div class="site-container">
-  	<img src="assets/images/Nav_Icon.png" alt="" id="ribbon">
-  	<nav class="nav">
+  		<nav class="nav hidden-nav">
 				<ul>
-					<li>HOME</li>
-					<li id="li-two">ABOUT US</li>
-					<li id="li-three">PRICES</li>
-					<li>CONTACT</li>
+					<a href="#"><li>HOME</li></a>
+					<a href="#about"><li id="li-two">ABOUT US</li></a>
+					<a href="#price"><li id="li-three">PRICES</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
+				</ul>
+				<img src="assets/images/Nav_Icon.png" alt="">
+			</nav>
+  	
+  		<nav class="nav">
+				<ul>
+					<a href="#"><li>HOME</li></a>
+					<a href="#about"><li id="li-two">ABOUT US</li></a>
+					<a href="#price"><li id="li-three">PRICES</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
 			</ul>
 			</nav>
   		<header>
@@ -25,7 +34,7 @@
   		<img src="assets/images/Home.png" alt="" id="home">
   		<div id="scroll"><img src="/assets/images/Scroll_Icon.png" alt=""><p>scroll down</p></div>
   		</header>
-  		<section class="about">
+  		<section class="about" id="about">
  				<img src="assets/images/HelloThere.png" alt="" id="hello">
 				<p>We are a casual 9 hole country golf course that welcomes families and players of all skill levels. Our atmosphere is laid back and our focus is on letting our customers come enjoy themselves without having to worry about dress codes, tee times and excessive crowds. Just good old fashioned fun and a great place to bring your kids and really enjoy the game.</p>
 				<div class="info-images clear-fix">
@@ -55,7 +64,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="pricing">
+			<section class="pricing" id="price">
  				<img src="assets/images/Background_Sand.png" id="sandy-back" alt="">
   			<img src="assets/images/Pricing.png" alt="">
 			</section>
@@ -74,6 +83,9 @@
   		<h5>SUGAR RIVER GREENS &#169; 2016</h5>
   		</footer>
   	</div>
+  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="scripts/app.js"></script>
   	
   </body>
 </html>
