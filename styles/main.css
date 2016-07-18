@@ -425,17 +425,18 @@ footer {
   .black-box .pop-image {
     height: 90%;
     width: 90%;
-    left: 5%; }
+    left: 6%; }
     .black-box .pop-image .black-image {
       max-width: 950px;
       max-height: 550px;
       width: 90%;
       left: 5%; }
-  .black-box .close {
-    position: absolute;
-    top: 1%;
-    right: 1%;
-    z-index: 999999; }
+    .black-box .pop-image .close {
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      z-index: 999999;
+      width: 26px; }
 
   header #scroll {
     position: absolute;
