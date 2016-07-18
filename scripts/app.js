@@ -23,13 +23,13 @@
 						$('.image').eq(i).addClass('trans-show');	
 					},200 * (i + 1));
 				});
-		}if(wScroll < 100){
+		}if(wScroll < 20){
 			$('.image').removeClass('trans-show');
 		}
 		
 		if(wScroll > $('.info-images').offset().top - windowHeight / 1.7){
 						$('.info-div').addClass('slide-up');	
-			}if(wScroll < 100){
+			}if(wScroll < 20){
 				$('.info-div').removeClass('slide-up');	
 			}
 		
