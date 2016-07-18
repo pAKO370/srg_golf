@@ -17,14 +17,22 @@
 			$('#clouds').css({'top':  ((wScroll) / 2)});
 			$('.about').css({'margin-top':  marginTop - ((wScroll) / 4)});
 		}
+		
+		//when images come into view, addClass to each, 200ms apart
 		if(wScroll > $('.info-images').offset().top - windowHeight / 1.2){
 				$('.image').each(function(i){
 					setTimeout(function(){
 						$('.image').eq(i).addClass('trans-show');	
 					},200 * (i + 1));
 				});
-		}if(wScroll < 20){
-			$('.image').removeClass('trans-show');
+			//removeClass 200ms apart
+		}if(wScroll < 150){
+			//$('.image').removeClass('trans-show');
+			$('.image').each(function(i){
+					setTimeout(function(){
+						$('.image').eq(i).removeClass('trans-show');	
+					},200 * (i + 1));
+				});
 		}
 		
 		if(wScroll > $('.info-images').offset().top - windowHeight / 1.7){
