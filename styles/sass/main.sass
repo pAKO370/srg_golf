@@ -151,9 +151,11 @@ header
 					repeat: no-repeat
 					position: center center
 					size: cover
-				transition: all 200ms ease-in-out
+				transition: all 400ms ease-in-out
 				cursor: pointer
-				transform: scale(1)
+				transform: scale(0)
+				&.trans-show
+					transform: scale(1)
 				&:hover
 					background: 
 						image: url(../assets/images/About_Par_hover.png)
@@ -166,6 +168,12 @@ header
 			p
 				width: 100%
 				font-size: 10px
+			.info-div
+				overflow: hidden
+				transition: all 1s ease-out
+				padding-top: 150px
+				&.slide-up
+					padding-top: 0px
 				
 		.location
 			width: 40%
@@ -182,7 +190,9 @@ header
 					size: cover
 				transition: all 400ms ease-in-out
 				cursor: pointer
-				transform: scale(1)
+				transform: scale(0)
+				&.trans-show
+					transform: scale(1)
 				&:hover
 					background: 
 						image: url(../assets/images/About_Location_hover.png)
@@ -195,6 +205,12 @@ header
 			p
 				width: 100%
 				font-size: 10px
+			.info-div
+				overflow: hidden
+				transition: all 1s ease-out
+				padding-top: 150px
+				&.slide-up
+					padding-top: 0px
 			
 		.course
 			width: 40%
@@ -211,7 +227,9 @@ header
 					size: cover
 				transition: all 600ms ease-in-out
 				cursor: pointer
-				transform: scale(1)
+				transform: scale(0)
+				&.trans-show
+					transform: scale(1)
 				&:hover
 					background: 
 						image: url(../assets/images/About_Layout_hover.png)
@@ -224,6 +242,12 @@ header
 			p
 				width: 100%
 				font-size: 10px
+			.info-div
+				overflow: hidden
+				transition: all 1s ease-out
+				padding-top: 150px
+				&.slide-up
+					padding-top: 0px
 			
 		.images
 			width: 40%
@@ -238,9 +262,11 @@ header
 					repeat: no-repeat
 					position: center center
 					size: cover
-				transition: all 800ms ease-in-out
+				transition: all 400ms ease-in-out
 				cursor: pointer
-				transform: scale(1)
+				transform: scale(0)
+				&.trans-show
+					transform: scale(1)
 				&:hover
 					background: 
 						image: url(../assets/images/About_Gallery_hover.png)
@@ -253,7 +279,12 @@ header
 			p
 				width: 100%
 				font-size: 10px
-		
+			.info-div
+				overflow: hidden
+				transition: all 1s ease-out
+				padding-top: 150px
+				&.slide-up
+					padding-top: 0px
 .pricing
 	width: 100%
 	margin: 0
