@@ -123,24 +123,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Course Layout\/CloseButton.png": {
+	"\/assets\/images\/Course_Layout\/CloseButton.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 460,
-		"inputAbbreviatedPath": "\/assets\/images\/Course Layout\/CloseButton.png",
-		"outputAbbreviatedPath": "\/assets\/images\/Course Layout\/CloseButton.png",
+		"inputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CloseButton.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CloseButton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Course Layout\/CourseLayout.jpg": {
+	"\/assets\/images\/Course_Layout\/CourseLayout.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 368183,
-		"inputAbbreviatedPath": "\/assets\/images\/Course Layout\/CourseLayout.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/Course Layout\/CourseLayout.jpg",
+		"inputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CourseLayout.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CourseLayout.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
