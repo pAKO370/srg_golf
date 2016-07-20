@@ -556,25 +556,3 @@ footer {
     left: calc(50% - 500px); }
     .black-box .pop-image .black-image {
       left: calc(50% - 455px); } }
-		.black-box {
-			position: absolute;
-			top: 90%;
-			left: 5%;
-			z-index: 9999999;
-		}
-		.black-box .pop-image .close {
-					position: absolute;
-					top: 1%;
-					width: 40px;
-					right: 5%;
-					z-index: 999999; }
-				.black-box .pop-image #left {
-					position: absolute;
-					left: 3%;
-					top: 45% }
-				.black-box .pop-image #right {
-					position: absolute;
-					right: 3%;
-					top: 45%
-
-
