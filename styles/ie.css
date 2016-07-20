@@ -1,0 +1,17 @@
+ul{
+	width: 500px
+}
+
+li {
+	width: 23%;
+	float: left;
+}
+
+
+#hello {
+	left: 40%	
+}
+
+.contact h4{
+	width: 300px	
+}
