@@ -20,11 +20,17 @@ li {
 	
 	max-width: 700px;
 }
-.averages, .location, .course, .images {
+.about .info-images .averages, 
+.about .info-images .location, 
+.about .info-images .course, 
+.about .info-images .images {
 	width: 22%;
 	margin: 0px;
 
 }
-.info-div {
+.about .info-images .average .info-div,
+.about .info-images .location .info-div,
+.about .info-images .course .info-div,
+.about .info-images .images .info-div{
 	padding-top: 0px;	
 }
