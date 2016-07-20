@@ -8,7 +8,7 @@
 	
 	var imageArray = ['assets/images/Gallery/GalleryImage_1.jpg','assets/images/Gallery/GalleryImage_2.jpg','assets/images/Gallery/GalleryImage_3.jpg'];
 	
-	
+	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 	
 	$(window).scroll(function(){
 			var wScroll = $(this).scrollTop();
@@ -28,15 +28,7 @@
 			$('#clouds').css({'top':  ((wScroll) / 2)});
 			$('.about').css({'margin-top':  marginTop - ((wScroll) / 4)});
 		}
-		
-		var pricing = (($('.pricing').offset().top - wScroll) - windowHeight) / 6;
-		console.log('dafafafaf' + pricing);
-		if(pricing < 0){
-			$('.pricing').css({'margin-top':  (pricing) + 'px'});
-			if(pricing < -200){
-				$('.pricing').css({'margin-top':  -200 + 'px'});
-			}
-		}
+
 		
 		
 		//when images come into view, addClass to each, 200ms apart
