@@ -35,14 +35,15 @@ body {
   .black-box .pop-image {
     max-width: 1000px;
     max-height: 600px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     position: absolute;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
-    pointer-events: all; }
+    pointer-events: all;
+    border-radius: 3px; }
     .black-box .pop-image .black-image {
       position: absolute;
       max-width: 950px;
@@ -56,6 +57,14 @@ body {
       width: 40px;
       right: calc(50% - 20px);
       z-index: 999999; }
+    .black-box .pop-image #left {
+      position: absolute;
+      left: 3%;
+      top: calc(50% - 16px); }
+    .black-box .pop-image #right {
+      position: absolute;
+      right: 3%;
+      top: calc(50% - 16px); }
 
 .site-container {
   box-shadow: 1px 1px 5px gray;
@@ -437,6 +446,14 @@ footer {
       right: 1%;
       z-index: 999999;
       width: 26px; }
+    .black-box .pop-image #left {
+      position: absolute;
+      left: 7%;
+      top: calc(50% - 16px); }
+    .black-box .pop-image #right {
+      position: absolute;
+      right: 7%;
+      top: calc(50% - 16px); }
 
   header #scroll {
     position: absolute;
@@ -469,6 +486,7 @@ footer {
     width: 100%;
     margin-top: -40px;
     padding-bottom: 0px;
+    margin-bottom: 200px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
