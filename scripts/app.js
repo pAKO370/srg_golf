@@ -13,10 +13,10 @@
 	$(window).scroll(function(){
 			var wScroll = $(this).scrollTop();
 			var windowHeight = $(window).height();
-			console.log(wScroll);
-			console.log('window height:  ' + windowHeight);
+			//console.log(wScroll);
+			//console.log('window height:  ' + windowHeight);
 			var diff = windowHeight - wScroll;
-			console.log('DIFF: ' + diff);
+			
 		if(wScroll > 60){
 			$('.hidden-nav img').css({'bottom' : -67 + 'px'});
 		}else{
@@ -57,8 +57,8 @@
 		
 	});
 	
-	function clickScroll(class, targetClass){
-		$(class).click(function(){
+	function clickScroll(className, targetClass){
+		$(className).click(function(){
 			$('html, body').animate({
 				scrollTop: ($(targetClass).offset().top-150)
 			}, 'slow');
