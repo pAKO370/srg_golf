@@ -36,5 +36,21 @@ li {
 }
 .black-box {
 	position: absolute;
-	
+	top: 90%;
+	left: 5%;
+	z-index: 9999999;
 }
+.black-box .pop-image .close {
+      position: absolute;
+      top: 1%;
+      width: 40px;
+      right: calc(50% - 20px);
+      z-index: 999999; }
+    .black-box .pop-image #left {
+      position: absolute;
+      left: 3%;
+      top: calc(50% - 16px); }
+    .black-box .pop-image #right {
+      position: absolute;
+      right: 3%;
+      top: calc(50% - 16px); }
