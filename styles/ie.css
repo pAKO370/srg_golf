@@ -18,14 +18,14 @@ li {
 
 .about .info-images {
 	
-	max-width: 700px;
+	max-width: 900px;
 }
 .about .info-images .averages, 
 .about .info-images .location, 
 .about .info-images .course, 
 .about .info-images .images {
-	width: 22%;
-	margin: 0px;
+	width: 20%;
+	margin: 20px;
 
 }
 .about .info-images .averages .info-div,
@@ -39,16 +39,17 @@ li {
 	top: 90%;
 	left: 5%;
 	z-index: 9999999;
+	height: 100%;
 }
 .black-box .pop-image .close {
       position: absolute;
       top: 1%;
-      width: 40px;
-      right: 5%;
+      width: 25px;
+      right: 1%;
       z-index: 999999; }
     .black-box .pop-image #left {
       position: absolute;
-      left: 3%;
+      left: 1%;
       top: 45% }
     .black-box .pop-image #right {
       position: absolute;
