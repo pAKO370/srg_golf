@@ -54,6 +54,13 @@
 			}if(wScroll < 20){
 				$('.info-div').removeClass('slide-up');	
 			}
+		var priceLocation = (($('.pricing').offset().top - $(window).scrollTop()- 400));
+		if(priceLocation <= 0){
+			console.log(priceLocation);
+			$('.sign').css({'transform': 'rotateY(' + (priceLocation / 20) + 'deg)'});
+			$('.bird').css({'transform': 'translateX(' + (priceLocation / 30) + 'px)'});
+			console.log('rotateY(' + priceLocation + 'deg)');
+		}
 		
 	});
 	

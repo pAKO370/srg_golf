@@ -101,6 +101,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/Bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4203,
+		"inputAbbreviatedPath": "\/assets\/images\/Bird.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/Clouds.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -310,6 +321,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/Pricing_nobird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 568718,
+		"inputAbbreviatedPath": "\/assets\/images\/Pricing_nobird.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Pricing_nobird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pricing_sign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25680,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing_sign.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing_sign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/Scroll_Icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -374,6 +407,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/final_images\/images\/pricing_background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244463,
+		"inputAbbreviatedPath": "\/final_images\/images\/pricing_background.png",
+		"outputAbbreviatedPath": "\/final_images\/images\/pricing_background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/final_images\/SRG_Website_FINAL.jpg": {
 		"fileType": 16384,

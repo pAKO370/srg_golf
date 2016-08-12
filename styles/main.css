@@ -334,6 +334,19 @@ header {
     position: absolute;
     margin-top: -60px;
     z-index: -44; }
+  .pricing .sign {
+    position: absolute;
+    width: 23%;
+    bottom: 15%;
+    left: calc(40%); }
+    .pricing .sign img {
+      width: 100%; }
+  .pricing .bird {
+    position: absolute;
+    width: 9%;
+    bottom: 63.5%;
+    z-index: 200;
+    left: calc(54%); }
 
 .contact {
   position: relative;
