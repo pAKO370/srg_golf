@@ -2,17 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
-	"\/assets\/images\/About_Gallery(hover).png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5478,
-		"inputAbbreviatedPath": "\/assets\/images\/About_Gallery(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/About_Gallery(hover).png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/About_Gallery.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -24,13 +13,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/About_Layout(hover).png": {
+	"\/assets\/images\/About_Gallery_hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6295,
-		"inputAbbreviatedPath": "\/assets\/images\/About_Layout(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/About_Layout(hover).png",
+		"initialSize": 5478,
+		"inputAbbreviatedPath": "\/assets\/images\/About_Gallery_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/About_Gallery_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -46,13 +35,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/About_Location(hover).png": {
+	"\/assets\/images\/About_Layout_hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6190,
-		"inputAbbreviatedPath": "\/assets\/images\/About_Location(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/About_Location(hover).png",
+		"initialSize": 6295,
+		"inputAbbreviatedPath": "\/assets\/images\/About_Layout_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/About_Layout_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -68,13 +57,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/About_Par(hover).png": {
+	"\/assets\/images\/About_Location_hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5398,
-		"inputAbbreviatedPath": "\/assets\/images\/About_Par(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/About_Par(hover).png",
+		"initialSize": 6190,
+		"inputAbbreviatedPath": "\/assets\/images\/About_Location_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/About_Location_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -86,6 +75,17 @@
 		"initialSize": 4036,
 		"inputAbbreviatedPath": "\/assets\/images\/About_Par.png",
 		"outputAbbreviatedPath": "\/assets\/images\/About_Par.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/About_Par_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5398,
+		"inputAbbreviatedPath": "\/assets\/images\/About_Par_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/About_Par_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -123,35 +123,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Course Layout\/CloseButton.png": {
+	"\/assets\/images\/Course_Layout\/CloseButton.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 460,
-		"inputAbbreviatedPath": "\/assets\/images\/Course Layout\/CloseButton.png",
-		"outputAbbreviatedPath": "\/assets\/images\/Course Layout\/CloseButton.png",
+		"inputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CloseButton.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CloseButton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Course Layout\/CourseLayout.jpg": {
+	"\/assets\/images\/Course_Layout\/CourseLayout.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 368183,
-		"inputAbbreviatedPath": "\/assets\/images\/Course Layout\/CourseLayout.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/Course Layout\/CourseLayout.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/Email(hover).png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 961,
-		"inputAbbreviatedPath": "\/assets\/images\/Email(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/Email(hover).png",
+		"inputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CourseLayout.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/Course_Layout\/CourseLayout.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -167,13 +156,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Facebook(hover).png": {
+	"\/assets\/images\/Email_hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 900,
-		"inputAbbreviatedPath": "\/assets\/images\/Facebook(hover).png",
-		"outputAbbreviatedPath": "\/assets\/images\/Facebook(hover).png",
+		"initialSize": 961,
+		"inputAbbreviatedPath": "\/assets\/images\/Email_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Email_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -185,6 +174,28 @@
 		"initialSize": 651,
 		"inputAbbreviatedPath": "\/assets\/images\/Facebook.png",
 		"outputAbbreviatedPath": "\/assets\/images\/Facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/Facebook_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 900,
+		"inputAbbreviatedPath": "\/assets\/images\/Facebook_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Facebook_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/flag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1573,
+		"inputAbbreviatedPath": "\/assets\/images\/flag.png",
+		"outputAbbreviatedPath": "\/assets\/images\/flag.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -406,20 +417,56 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/styles\/css\/main.css": {
+	"\/styles\/ie.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/css\/main.css",
+		"inputAbbreviatedPath": "\/styles\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/css\/normalize.css": {
+	"\/styles\/ie.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/css\/normalize.css",
+		"inputAbbreviatedPath": "\/styles\/ie.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/main.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/main.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/normalize.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/normalize.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -432,7 +479,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/sass\/main.sass",
-		"outputAbbreviatedPath": "\/styles\/css\/main.css",
+		"outputAbbreviatedPath": "\/styles\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
